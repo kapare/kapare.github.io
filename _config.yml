@@ -11,5 +11,6 @@ twitter_username: 1kapare
 github_username: kapare
 
 # Build settings
-markdown: kramdown
-theme: minima
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "fenced_code_blocks"]
