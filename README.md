@@ -20,6 +20,10 @@ brew install nodejs
 
 ```bash
 gem install jekyll bundler
+git clone git@github.com:kapare/kapare.github.io.git
+cd kapare.github.io
+jekyll new . --force
+
 ```
 
 # Create new blog
